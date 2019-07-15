@@ -50,8 +50,7 @@ end
 def reduce_to_any_true(source_array)
   if source_array
     puts "#{source_array} is truthy"
-  else 
+  else
     puts "#{source_array} is falsey"
-  end 
+  end
 end
-
