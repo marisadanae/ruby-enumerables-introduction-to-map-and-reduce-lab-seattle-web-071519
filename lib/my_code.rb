@@ -48,6 +48,10 @@ def reduce_to_all_true(source_array)
 end
 
 def reduce_to_any_true(source_array)
-  i = 0
-  source_array.reduce{ |beTrue, beFalse| beTrue}
+  if source_array
+    puts "#{source_array} is truthy"
+  else 
+    puts "#{source_array} is falsey"
+  end 
 end
+
