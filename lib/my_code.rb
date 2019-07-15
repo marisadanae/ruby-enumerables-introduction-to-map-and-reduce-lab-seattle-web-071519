@@ -49,5 +49,5 @@ end
 
 def reduce_to_any_true(source_array)
   i = 0
-  source_array.reduce{ |beTrue, false| !!nil + !false}
+  source_array.reduce{ |beTrue, beFalse| beTrue}
 end
